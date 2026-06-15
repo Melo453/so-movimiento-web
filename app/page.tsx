@@ -7,6 +7,7 @@ import { HowItWorks } from "@/components/how-it-works"
 import { Pricing } from "@/components/pricing"
 import { Gallery } from "@/components/gallery"
 import { Testimonials } from "@/components/testimonials"
+import { FAQ } from "@/components/faq"
 import { Location } from "@/components/location"
 import { Contact } from "@/components/contact"
 import { SiteFooter } from "@/components/site-footer"
@@ -24,6 +25,7 @@ export default function Page() {
         <Pricing />
         <Gallery />
         <Testimonials />
+        <FAQ />
         <Location />
         <Contact />
       </main>
