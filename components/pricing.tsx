@@ -18,11 +18,11 @@ export function Pricing() {
           </p>
         </div>
 
-        <div className="mx-auto mt-12 grid max-w-4xl gap-6 md:grid-cols-2">
-          {/* Clase de entrenamiento */}
+        <div className="mx-auto mt-12 grid max-w-6xl gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {/* Clase grupal */}
           <div className="flex flex-col rounded-3xl border border-accent/60 bg-background p-8 shadow-sm">
             <h3 className="font-heading text-xl text-foreground">
-              Clase individual
+              Clase grupal
             </h3>
             <p className="mt-4 flex items-baseline gap-1">
               <span className="font-heading text-4xl text-foreground">
@@ -31,13 +31,14 @@ export function Pricing() {
               <span className="text-sm text-muted-foreground">/ clase</span>
             </p>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Sesión de entrenamiento personalizado adaptada a tu objetivo.
+              Sesión grupal de entrenamiento y trabajo corporal consciente,
+              adaptada al ritmo del grupo.
             </p>
             <ul className="mt-6 space-y-3 text-sm text-foreground">
               {[
-                "Trabajo 100% personalizado",
+                "Trabajo postural y movilidad",
+                "Espacio cuidado y acompañado",
                 "Descuentos abonando mensual por 4 u 8 clases",
-                "Seguimiento de tu evolución",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <Check className="mt-0.5 size-4 shrink-0 text-accent-foreground" />
@@ -45,7 +46,41 @@ export function Pricing() {
                 </li>
               ))}
             </ul>
-            <div className="mt-8">
+            <div className="mt-auto pt-8">
+              <WhatsAppButton message={WHATSAPP_MESSAGES.reservar} className="w-full">
+                Reservar turno por WhatsApp
+              </WhatsAppButton>
+            </div>
+          </div>
+
+          {/* Clase individual */}
+          <div className="flex flex-col rounded-3xl border border-border/70 bg-card p-8">
+            <h3 className="font-heading text-xl text-foreground">
+              Clase individual
+            </h3>
+            <p className="mt-4 flex items-baseline gap-1">
+              <span className="font-heading text-4xl text-foreground">
+                $30.000
+              </span>
+              <span className="text-sm text-muted-foreground">/ clase</span>
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+              Sesión personalizada uno a uno, adaptada a tu cuerpo, tu historia
+              y tus objetivos.
+            </p>
+            <ul className="mt-6 space-y-3 text-sm text-foreground">
+              {[
+                "Trabajo 100% personalizado",
+                "Atención individual durante toda la sesión",
+                "Adaptación según objetivo, postura y posibilidades",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <Check className="mt-0.5 size-4 shrink-0 text-accent-foreground" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <div className="mt-auto pt-8">
               <WhatsAppButton message={WHATSAPP_MESSAGES.reservar} className="w-full">
                 Reservar turno por WhatsApp
               </WhatsAppButton>
@@ -61,14 +96,14 @@ export function Pricing() {
               A consultar
             </p>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Tratamientos de estética: consultar por WhatsApp según objetivo y
-              tratamiento.
+              Tratamientos faciales, corporales y masajes según objetivo y
+              necesidad.
             </p>
             <ul className="mt-6 space-y-3 text-sm text-foreground">
               {[
                 "Estética facial y corporal",
-                "Atención personalizada",
-                "Valores según objetivo y tratamiento",
+                "Masajes de relajación",
+                "Valores según tratamiento",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <Check className="mt-0.5 size-4 shrink-0 text-accent-foreground" />
@@ -76,7 +111,7 @@ export function Pricing() {
                 </li>
               ))}
             </ul>
-            <div className="mt-8">
+            <div className="mt-auto pt-8">
               <WhatsAppButton
                 message={WHATSAPP_MESSAGES.estetica}
                 variant="outline"

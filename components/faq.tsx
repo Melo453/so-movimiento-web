@@ -10,9 +10,9 @@ const faqs = [
       "Es un trabajo de reeducación postural que invita a escuchar el cuerpo, reconocer hábitos, fortalecer músculos profundos de sostén y recuperar nuevas posibilidades de movimiento.",
   },
   {
-    question: "¿Las sesiones son individuales?",
+    question: "¿Las clases son individuales o grupales?",
     answer:
-      "Sí. El trabajo es personalizado para poder observar mejor tus necesidades, adaptar cada propuesta y acompañar tu proceso de forma más cuidada.",
+      "Hay opciones grupales e individuales. Las clases grupales mantienen un acompañamiento cuidado, mientras que las sesiones individuales permiten trabajar de forma más específica según tu cuerpo, tus objetivos y tus necesidades.",
   },
   {
     question: "¿También se realizan tratamientos estéticos y masajes?",

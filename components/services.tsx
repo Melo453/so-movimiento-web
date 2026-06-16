@@ -50,8 +50,8 @@ export function Services() {
             Tres formas de trabajar tu cuerpo
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            Desde el entrenamiento postural y la TPA hasta la estética integral.
-            Elegí por dónde empezar; cada sesión es individual.
+            Desde el entrenamiento postural y la TPA hasta la estética integral. 
+            Podés elegir entre clases grupales, sesiones individuales o tratamientos personalizados según lo que estés buscando.
           </p>
         </div>
 

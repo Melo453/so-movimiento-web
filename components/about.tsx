@@ -32,7 +32,7 @@ export function About() {
               confianza.
             </p>
             <p>
-              En S.O. Movimiento en Consciencia cada sesión es individual y se
+              En S.O. Movimiento en Consciencia cada sesión es personalizada y se
               ajusta a tu historia, tu ritmo y tus posibilidades. No hay rutinas
               prearmadas: hay un proceso personal, pensado para tu cuerpo.
             </p>
@@ -41,6 +41,7 @@ export function About() {
           <ul className="mt-8 grid gap-3 sm:grid-cols-2">
             {[
               "Sesiones individuales",
+              "Sesiones grupales",
               "Reeducación postural",
               "Ambiente calmo y profesional",
               "Enfoque atento y humano",
