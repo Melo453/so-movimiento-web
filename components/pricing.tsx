@@ -7,7 +7,7 @@ export function Pricing() {
     <section id="precios" className="bg-card/40 py-20 lg:py-28">
       <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="text-xs uppercase tracking-[0.2em] text-accent-foreground">
+          <span className="text-xs uppercase tracking-[0.2em]" style={{ color: "lab(40 79.47 -100.39)" }}>
             Precios
           </span>
           <h2 className="mt-4 text-balance font-heading text-3xl font-medium leading-tight text-foreground sm:text-4xl">

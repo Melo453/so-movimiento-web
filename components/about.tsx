@@ -17,7 +17,7 @@ export function About() {
         </div>
 
         <div>
-          <span className="text-xs uppercase tracking-[0.2em] text-accent-foreground">
+          <span className="text-xs uppercase tracking-[0.2em]" style={{ color: "lab(40 79.47 -100.39)" }}>
             El espacio
           </span>
           <h2 className="mt-4 text-balance font-heading text-3xl font-medium leading-tight text-foreground sm:text-4xl">

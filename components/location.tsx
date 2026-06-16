@@ -8,7 +8,7 @@ export function Location() {
       <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="grid items-center gap-10 rounded-[2rem] border border-border/70 bg-card p-6 sm:p-10 lg:grid-cols-2 lg:gap-14">
           <div>
-            <span className="text-xs uppercase tracking-[0.2em] text-accent-foreground">
+            <span className="text-xs uppercase tracking-[0.2em]" style={{ color: "lab(40 79.47 -100.39)" }}>
               Ubicación
             </span>
 
